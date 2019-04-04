@@ -1,0 +1,224 @@
+body{
+  background: rgb(245,245,245);
+  color: #575b5a;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+h1{
+  font-family: 'Lato', sans-serif;
+  color: darkgrey;
+  font-weight: bolder;
+  font-size: 50px;
+    text-align: center;
+}
+a {
+  color: 42376f;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+    text-align: center;
+}
+
+a.btn-secondary {
+  color: white;
+  background-color: #2878B5;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+a.btn-secondary:hover {
+  background-color: lightgrey;
+  color: grey;
+  border-color: grey
+}
+
+#banner{
+    background-image: url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+}
+#banner h1 {
+  font-size: 150px;
+  color: #717171;
+  font-family: 'LingWai SC';
+}
+#banner p {
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  color: grey;
+  font-style: italic;
+}
+
+#container-entete {
+  display: flex;
+  align-content: space-around;
+  padding: 30px;
+  flex-grow: ;
+  margin: 10px;
+  align-content: stretch;
+  border: 0px solid;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.texte-description {
+  color: white;
+  text-align: left;
+  padding: 20px;
+  vertical-align: middle;
+  text-align: justify;
+}
+
+.photocv {
+  border-radius: 50%;
+  max-height: 200px;
+  width: 150px;
+
+}
+
+#container-general {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: stretch;
+  padding: 30px;
+  flex-grow: 2;
+  margin: 10px;
+  align-content: stretch;
+  border: 1px solid;
+  border-color: lightgrey;
+  background-color: white;
+  text-align: left;
+}
+
+#container-general h1 {
+  font-size: 40px;
+  color: black;
+  padding: 10px;
+  text-align: center; 
+}
+
+#container-general h2 {
+  font-size: 25px;
+  color: darkgrey;
+  margin-top: 60px;
+}
+
+#container-general h3 {
+  font-size: 20px;
+  color: lightgrey;
+}
+
+#container-general p{
+  text-align: justify;
+}
+
+#list-unstyled {
+  text-align: justify;
+}
+
+#container-competences {
+  display: flex;
+  align-content: space-between;
+}
+
+#container-competences h1{
+  font-size: 20px;
+  color: black;
+  text-align: center
+}
+
+#langue {
+  padding: 30px;
+  flex-grow: 2;
+  margin: 10px;
+  align-content: stretch;
+  border: 1px solid;
+  border-color: lightgrey;
+  background-color: white;
+}
+
+#langue img {
+  padding: 30px;
+  max-height: 500px;
+  width: 400px;
+}
+
+#capacitepro {
+  padding: 30px;
+  flex-grow: 2;
+  margin: 10px;
+  align-content: stretch;
+  border: 1px solid;
+  border-color: lightgrey;
+  background-color: white;
+}
+
+#capacitepro img {
+  padding: 30px;
+  max-height: 500px;
+  width: 500px;
+}
+
+#loisirs {
+  padding: 30px;
+  flex-grow: 2;
+  margin: 10px;
+  align-content: stretch;
+  border: 1px solid;
+  border-color: lightgrey;
+  background-color: white;
+}
+
+#loisirs img {
+  padding: 30px;
+  max-height: 500px;
+  width: 275px;
+}
+
+img {
+  max-height: 130px;
+  width: auto
+}
+
+a.sites-formation {
+  color: darkgrey;
+}
+
+a.sites-formation:hover {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
